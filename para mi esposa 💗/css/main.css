@@ -23,7 +23,7 @@ body {
 #lyrics {
   font-size: 28px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: white;
+  color: yellow;
   position: absolute;
   margin-bottom: 20%;
   z-index: 1;
@@ -33,14 +33,14 @@ body {
 @media only screen and (max-width: 600px) {
   /* Estilos específicos para dispositivos con un ancho máximo de 600px */
   #lyrics {
-      font-size: 14px; /* Reduce el tamaño del texto para dispositivos más pequeños */
+      font-size: 10px; /* Reduce el tamaño del texto para dispositivos más pequeños */
       margin-bottom: 530px;
       letter-spacing: 3px;
   }
 
 }
 .titulo {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   font-family: "Arial Narrow", Arial, sans-serif;
   color: red;
   position: absolute;
